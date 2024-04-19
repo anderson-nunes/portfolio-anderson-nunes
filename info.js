@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "A second year Computer Science graduate student at Indiana University Bloomington with an interest in Software Development, UX Design and Artificial Intelligence - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+    "Sou um desenvolvedor formado em Web FullStack pela Labenu e concluí o curso Técnico em Informática para Internet pela QI Faculdade & Escola Técnica. Atualmente, curso Análise e Desenvolvimento de Sistemas para aprimorar minhas habilidades técnicas. Tenho experiência em projetos colaborativos, em empresas e em projetos voluntários. Desenvolvi uma sólida base em clean code para criar soluções eficientes e escaláveis. Meu foco está no desenvolvimento front-end, mas tenho interesse em explorar back-end e DevOps para ampliar minha versatilidade profissional. Estou aberto a oportunidades de networking e colaborações. Entre em contato para discutirmos projetos ou oportunidades profissionais.",
   links: {
     linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
     github: "https://github.com/hrishikeshpaul",
