@@ -17,14 +17,14 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >Ola!</span
           >
           <div>
             <p v-html="description"></p>
           </div>
           <div class="text-center pb-4">
             <button
-              class="btn btn-outline-secondary mx-2 "
+              class="btn btn-outline-secondary mx-2"
               @click="open('linkedin')"
               v-tooltip.bottom="'LinkedIn'"
             >
@@ -37,20 +37,20 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('angellist')"
               v-tooltip.bottom="'AngelList'"
             >
               <i class="fab fa-angellist"></i>
-            </button>
-            <button
+            </button> -->
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
               v-tooltip.bottom="'Resume'"
             >
               <i class="fa fa-file"></i>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -80,8 +80,8 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
-      resume: info.links.resume
+      // angellist: info.links.angellist,
+      // resume: info.links.resume
     };
   },
   methods: {

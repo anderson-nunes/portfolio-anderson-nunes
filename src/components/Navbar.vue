@@ -25,7 +25,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span style="color: gray; font-size: 23px;"
+          <span style="color: gray; font-size: 23px"
             ><i class="fas fa-bars"></i
           ></span>
         </button>
@@ -38,7 +38,7 @@
                 href="/about"
                 @click.prevent="$emit('scroll', 'about')"
                 :class="{ 'text-light': nightMode }"
-                >about</a
+                >sobre</a
               >
             </li>
             <li class="nav-item mx-2">
@@ -50,7 +50,7 @@
                 >skills</a
               >
             </li>
-            <li class="nav-item mx-2 ">
+            <li class="nav-item mx-2">
               <a
                 class="nav-link"
                 href="/portfolio"
@@ -65,7 +65,7 @@
                 href="/contact"
                 @click.prevent="$emit('scroll', 'contact')"
                 :class="{ 'text-light': nightMode }"
-                >contact</a
+                >contato</a
               >
             </li>
             <li class="nav-item ml-2">
