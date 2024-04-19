@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >contact.</span
+          >contato.</span
         >
       </div>
       <hr
@@ -36,7 +36,7 @@
             type="text"
             name="user_name"
             v-model="name"
-            placeholder="name"
+            placeholder="nome"
             class="pinput"
             :class="{
               pgray: !nightMode,
@@ -77,7 +77,7 @@
           <textarea
             name="message"
             v-model="text"
-            placeholder="message"
+            placeholder="mensagem"
             class="pinput"
             rows="4"
             :class="{
@@ -97,7 +97,7 @@
           data-aos-duration="1000"
           data-aos-offset="50"
         >
-          Send
+          Enviar
         </button>
       </div>
 

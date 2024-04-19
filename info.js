@@ -1,6 +1,6 @@
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
+  name: "Anderson Ribeiro",
+  logo_name: "anderson",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
@@ -11,158 +11,164 @@ let info = {
   description:
     "Sou um desenvolvedor formado em Web FullStack pela Labenu e concluí o curso Técnico em Informática para Internet pela QI Faculdade & Escola Técnica. Atualmente, curso Análise e Desenvolvimento de Sistemas para aprimorar minhas habilidades técnicas. Tenho experiência em projetos colaborativos, em empresas e em projetos voluntários. Desenvolvi uma sólida base em clean code para criar soluções eficientes e escaláveis. Meu foco está no desenvolvimento front-end, mas tenho interesse em explorar back-end e DevOps para ampliar minha versatilidade profissional. Estou aberto a oportunidades de networking e colaborações. Entre em contato para discutirmos projetos ou oportunidades profissionais.",
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
+    linkedin: "https://www.linkedin.com/in/anderson-ribeiro-dev/",
+    github: "https://github.com/anderson-nunes",
     angellist: "https://angel.co/u/hrishikesh-paul",
     resume:
       "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
   },
   education: [
     {
-      name: "Indiana University Bloomington",
-      place: "USA",
-      date: "Aug, 2019 - May, 2021",
-      degree: "Masters in Computer Science",
+      name: "UniCesumar",
+      place: "BR",
+      date: "Jan, 2024 - Jul, 2026",
+      degree: "Analise e Desenvolvimento de Sistemas",
       gpa: "3.7/4.0",
       description:
-        "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
+        "Atualmente estou cursando análise e desenvolvimento de sistemas, ao mesmo tempo em que me especializo em tecnologias modernas e práticas de programação avançada",
       skills: [
-        "Artificial Intelligence",
-        "Software Engineering",
-        "Algorithms",
-        "Computer Vision",
-        "Music Data Mining",
+        "Programação orientada a objetos (POO)",
+        "Tecnologias de redes de computadores",
+        "Arquitetura de computadores",
+        "Linguagens de programação",
+        "Desenvolvimento de software",
         ,
         "OS"
       ]
     },
     {
-      name: "Manipal Institute of Technology",
-      place: "India",
-      date: "Aug, 2015 - July, 2019",
-      degree: "Bachelors in Computer and Communication",
+      name: "QI Faculdade & Escola Técnica",
+      place: "BR",
+      date: "Fev, 2021 - Agst, 2022",
+      degree: "Técnico em informática para internet",
       gpa: "8.0/10.0",
       description:
-        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
+        "Concluido curso técnico em Informática para Internet, durante o qual me especializei em desenvolvimento web e tecnologias de criação de sites e aplicações online.",
       skills: [
-        "AI",
-        "Neural Netwroks",
-        "Data Mining",
-        "Computer Vision",
-        "Pattern Recognition",
-        "HCI",
-        "Software Engineering"
+        "Banco de dados relacionais",
+        "Web Design Responsivo",
+        "Desenvolvimento web",
+        "Banco de dados",
+        "JavaScript",
+        "Depuração",
+        "API REST",
+        "HTML5",
+        "CSS",
+        "Java",
+        "PHP",
+        "SQL",
+        "Git",
+      ]
+    },
+    {
+      name: "Labenu",
+      place: "BR",
+      date: "Jan, 2023 - Jan, 2024",
+      degree: "Desenvolvimento Web Full Stack",
+      gpa: "8.0/10.0",
+      description:
+        "Programa com mais de 1000 horas de experiência prática em desenvolvimento front-end/back-end, guiadas por metodologias ágeis (Kanban/Scrum).",
+      skills: [
+        "Web Design Responsivo",
+        "Banco de dados",
+        "ECMAScript",
+        "Web design",
+        "JavaScript",
+        "Express.js",
+        "Depuração",
+        "React.js",
+        "Redux.js",
+        "API REST",
+        "HTML5",
+        "JSON",
+        "CSS",
+        "SQL",
+        "Git",
       ]
     }
   ],
   experience: [
     {
-      name: "Cyberinfrastructure for Network Science Center",
-      place: "Bloomington, Indiana",
-      date: "Jun, 2020 - Present",
-      position: "Research Assistant; Full Stack Developer",
+      name: "ALFA Software AutoPeças",
+      place: "BR",
+      date: "Mar, 2024 - Presente",
+      position: "Desenvolvedor Front End",
       description:
-        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
-      skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+        "Atuo no desenvolvimento de interfaces de usuário (UI), projetando e implementando interfaces intuitivas e atraentes. Utilizo Vue.js para criar aplicativos web escaláveis e responsivos, maximizando a experiência do usuário. Além disso, aplico TypeScript para codificar soluções robustas e seguras, garantindo uma base sólida e escalável para todos os projetos em que estou envolvido.",
+      skills: ["HTML", "CSS", "Javascript", "Vue.js", "Typescript"]
     },
     {
-      name: "Skylark Drones",
-      place: "Bangalore, India",
-      date: "Jan, 2019 - Jun, 2021",
-      position: "Full Stack Web Developer",
+      name: "Decola Juninho - Voluntariado",
+      place: "BR",
+      date: "Dez, 2023 - Presente",
+      position: "Desenvolvedor Front End",
       description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
+        "Atuo no desenvolvimento de interfaces de usuário (UI), projetando e implementando interfaces intuitivas e visualmente atraentes. Utilizo React com Material-UI para criar aplicativos web escaláveis e responsivos, maximizando a experiência do usuário. Além disso, aplico TypeScript para codificar soluções robustas e seguras, garantindo uma base sólida e escalável para todos os projetos em que estou envolvido.",
+      skills: ["HTML", "CSS", "Material UI", "Javascript", "React", "Typescript"]
     },
     {
-      name: "Hridayam Soft Solutions",
-      place: "Mumbai, India",
-      date: "May, 2018 - Jun, 2018",
-      position: "Computer Vision Engineer",
+      name: "FeedFlex",
+      place: "BR",
+      date: "Out, 2022 - Abr, 2023",
+      position: "Desenvolvedor Front End",
       description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
+        "Atuo no desenvolvimento de interfaces de usuário (UI), projetando e implementando interfaces intuitivas e visualmente atraentes. Utilizo React para criar aplicativos web escaláveis e responsivos, maximizando a experiência do usuário. Além disso, aplico TypeScript para codificar soluções robustas e seguras, garantindo uma base sólida e escalável para todos os projetos em que estou envolvido.",
+      skills: ["HTML", "CSS", "Javascript", "React", "Typescript"]
     },
-    {
-      name: "Elementail Labs",
-      place: "Mumbai, India",
-      date: "May, 2017 - July, 2017",
-      position: "Full Stack Web Developer",
-      description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
-    },
-    {
-      name: "Viteos Capital Market Services s",
-      place: "Mumbai, India",
-      date: "May, 2016 - July, 2016",
-      position: "Software Developer",
-      description:
-        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
-      skills: ["C#", "C++", "Visual Studio"]
-    }
   ],
   skills: [
     {
-      title: "languages",
+      title: "linguagens",
       info: [
-        "Python",
         "Javascript",
         "TypeScript",
-        "Java",
-        "C",
-        "C++",
-        "SQL",
-        "NoSQL",
-        "Ruby"
+        "SQLite",
       ],
       icon: "fa fa-code"
     },
+    // {
+    //   title: "data frameworks",
+    //   info: [
+    //     "Keras",
+    //     "Numpy",
+    //     "Pandas",
+    //     "OpenCV",
+    //     "SciPy",
+    //     "Sklearn",
+    //     "LibROSA",
+    //     "Pillow"
+    //   ],
+    //   icon: "fa fa-cubes"
+    // },
     {
-      title: "data frameworks",
-      info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
-      ],
-      icon: "fa fa-cubes"
-    },
-    {
-      title: "web technologies",
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
+      title: "tecnologias web",
+      info: ["Vue", "React", "Node", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
       title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
+      info: ["MongoDB", "SQLite", "MySQL"],
       icon: "fa fa-database"
     },
     {
-      title: "operating systems & tools",
+      title: "sistemas operacionais e ferramentas",
       info: [
-        "MacOS",
+
         "Ubuntu",
         "Windows",
         "Android",
-        "Agile",
         "Scrum",
         "JIRA",
-        "Heroku",
         "Firebase",
         "AWS S3"
       ],
       icon: "fas fa-tools"
     },
-    {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
-      icon: "fa fa-pencil-square-o"
-    }
+    // {
+    //   title: "design",
+    //   info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+    //   icon: "fa fa-pencil-square-o"
+    // }
   ],
   portfolio: [
     {

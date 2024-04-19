@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >about me.</span
+          >sobre.</span
         >
       </div>
       <hr
@@ -53,11 +53,11 @@ export default {
   data() {
     return {
       education: {
-        title: "education",
+        title: "educação",
         data: info.education,
       },
       experience: {
-        title: "experiences",
+        title: "experiência",
         data: info.experience,
       },
     };

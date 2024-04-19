@@ -17,7 +17,7 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >Olá!</span
           >
           <div>
             <p v-html="description"></p>
@@ -37,7 +37,7 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('angellist')"
               v-tooltip.bottom="'AngelList'"
@@ -50,7 +50,7 @@
               v-tooltip.bottom="'Resume'"
             >
               <i class="fa fa-file"></i>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default {
       linkedin: info.links.linkedin,
       github: info.links.github,
       angellist: info.links.angellist,
-      resume: info.links.resume
+      resume: info.links.resume,
     };
   },
   methods: {
