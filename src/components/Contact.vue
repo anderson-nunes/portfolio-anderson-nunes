@@ -21,7 +21,7 @@
         >
       </div>
       <hr
-        width="50%"
+        width="100%"
         :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
       />
       <br />

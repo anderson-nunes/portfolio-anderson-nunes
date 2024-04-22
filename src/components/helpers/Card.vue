@@ -34,8 +34,7 @@
                 ? portfolio.description.substring(0, 105) + '...'
                 : portfolio.description
             "
-          >
-          </p>
+          ></p>
         </div>
         <div class="text-center mt-2">
           <button
@@ -43,7 +42,7 @@
             class="btn-sm btn btn-outline-secondary no-outline"
             @click.prevent="showModal"
           >
-            read more
+            mais info
           </button>
           <button
             href="#"

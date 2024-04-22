@@ -33,7 +33,7 @@ export default {
     About,
     Skills,
     Portfolio,
-    Recommendation,
+    // Recommendation,
     Contact,
     Footer,
   },

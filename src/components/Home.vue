@@ -37,7 +37,7 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <!-- <button
+            <button
               class="btn btn-outline-secondary mx-2"
               @click="open('angellist')"
               v-tooltip.bottom="'AngelList'"
@@ -50,7 +50,7 @@
               v-tooltip.bottom="'Resume'"
             >
               <i class="fa fa-file"></i>
-            </button> -->
+            </button>
           </div>
         </div>
       </div>

@@ -69,8 +69,7 @@
                 :bullets="false"
                 slide-content-outside="bottom"
                 style="position: aboslute"
-                  @click.prevent="showDesignModalFn(design)"
-
+                @click.prevent="showDesignModalFn(design)"
               >
                 <vueper-slide
                   v-for="(slide, i) in design.pictures"
@@ -83,7 +82,9 @@
                 class="mt-2"
               >
                 <div>
-                  <div class="title2" style="font-weight: 500;">{{ design.title }}</div>
+                  <div class="title2" style="font-weight: 500;">
+                    {{ design.title }}
+                  </div>
                   <span
                     class="badge mr-2 mb-2"
                     v-for="tech in design.technologies"
@@ -92,7 +93,7 @@
                     >{{ tech }}</span
                   >
                   •
-                  <span class="date ml-1">{{design.date}}</span>
+                  <span class="date ml-1">{{ design.date }}</span>
                 </div>
 
                 <button
@@ -169,7 +170,7 @@ export default {
       modal_info: {},
       design_modal_info: {},
       number: 3,
-      showBtn: "show more",
+      showBtn: "mostre mais",
       shower: 0,
       data: [
         '<div class="example-slide">Slide 1</div>',
@@ -417,6 +418,6 @@ export default {
 .date {
   font-size: 14px;
   font-weight: 400;
-  opacity: 0.75
+  opacity: 0.75;
 }
 </style>
