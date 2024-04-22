@@ -28,13 +28,13 @@
               @click="open('angellist')"
             >
               <i class="fab fa-angellist"></i>
-            </button>
+            </button> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
             >
               <i class="fa fa-file"></i>
-            </button> -->
+            </button>
           </div>
         </div>
       </div>

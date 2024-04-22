@@ -13,9 +13,8 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/anderson-ribeiro-dev/",
     github: "https://github.com/anderson-nunes",
-    angellist: "https://angel.co/u/hrishikesh-paul",
     resume:
-      "https://github.com/anderson-nunes/portfolio-template/tree/master/src/assets/currículo-anderson-ribeiro-nunes/pdfs"
+      "https://github.com/anderson-nunes/portfolio-template/blob/master/src/assets/pdfs/curr%C3%ADculo-anderson-ribeiro-nunes.pdf"
   },
   education: [
     {
@@ -343,95 +342,192 @@ let info = {
   ],
   portfolio_design: [
     {
-      name: "Guituna",
-      title: "Guituna - Mockup Design",
+      name: "Labeddit",
+      title: "E-Labeddit",
       pictures: [
         {
-          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
-          title: "MoodBoard"
+          img: require("./src/assets/personal/labeddit/labeddit-front-end.gif"),
+          title: "Labeddit"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
-          title: "Mockups 1"
+          img: require("./src/assets/personal/labeddit/login.png"),
+          title: "Labeddit"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
-          title: "Mockups 2"
+          img: require("./src/assets/personal/labeddit/signup.png"),
+          title: "Labeddit"
         },
         {
-          img: require("./src/assets/designs/coursera1/App Elements.png"),
-          title: "App Elements"
-        }
+          img: require("./src/assets/personal/labeddit/post.png"),
+          title: "Labeddit"
+        },
+        {
+          img: require("./src/assets/personal/labeddit/comment.png"),
+          title: "Labeddit"
+        },
       ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
+      technologies: ["React", "TypeScript", "Node.js", "SQLite3"],
+      category: "Projeto",
       github: "",
-      date: "May, 2020 - Jun, 2020",
+      date: "Out, 2023 - Dez, 2023",
       visit: "",
       description:
-        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
+        "LabEddit é um projeto web full stack, desenvolvido com um design de aplicativo mobile first que permite a interação entre usuários por meio de postagens, comentários e votos. Os usuários também podem alterar apelido, senha e imagem de avatar, além de deletar suas próprias postagens e comentários."
     },
     {
-      name: "Pantree",
-      title: "Pantree - Mockup Design",
+      name: "Pokemon",
+      title: "Pokemon",
       pictures: [
         {
-          img: require("./src/assets/designs/pantree/MoodBoard.png"),
-          title: "Moodboard"
+          img: require("./src/assets/personal/pokemon/pokemon01.png"),
+          title: "Pokemon"
         },
         {
-          img: require("./src/assets/designs/pantree/1.png"),
-          title: "Mockups 1"
+          img: require("./src/assets/personal/pokemon/pokemon02.png"),
+          title: "Pokemon"
         },
         {
-          img: require("./src/assets/designs/pantree/2.png"),
-          title: "Mockups 2"
-        }
+          img: require("./src/assets/personal/pokemon/pokemon03.png"),
+          title: "Pokemon"
+        },
+        {
+          img: require("./src/assets/personal/pokemon/pokemon04.png"),
+          title: "Pokemon"
+        },
+        {
+          img: require("./src/assets/personal/pokemon/pokemon05.png"),
+          title: "Pokemon"
+        },
+        {
+          img: require("./src/assets/personal/pokemon/pokemon06.png"),
+          title: "Pokemon"
+        },
+        {
+          img: require("./src/assets/personal/pokemon/pokemon07.png"),
+          title: "Pokemon"
+        },
       ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
+      technologies: ["React", "Api-rest", "Axios", "Chakra UI"],
+      category: "Projetos individuais",
       github: "",
-      date: "May, 2020 - July, 2020",
+      date: "May, 2023 - Jun, 2023",
       visit: "",
       description:
-        "Pantree is a recipiece finding and recommending application. It is often the case that you have run to your closest grocery store just to pick up one item that is missing in your kitchen. Pantree keeps a track of all your ingredients, and suggests recipes based on your meal preferences and past recipes. <br/><br/> The goal of the interface is to keep it similar to various recipe/food apps to reduce the learning required by the user, but also provide a smooth interface for users to seemlessly browse through recipes and ingredients."
+        "O projeto Pokedex oferece uma experiência completa de exploração de Pokémon. Com recursos de captura, os usuários podem adicionar novos Pokémon à sua coleção. Além disso, detalhes abrangentes sobre cada Pokémon, como estatísticas e habilidades, podem ser visualizados. A flexibilidade de excluir Pokémon da coleção também está disponível. Essa aplicação proporciona uma jornada envolvente para os fãs, permitindo que interajam com os Pokémon de maneiras diversas e significativas. O projeto terá como fonte de dados para a sua criação a Poke Api, uma Api pública, muito usada para aplicações focadas em aprendizado de programação e também usada em cases de processos seletivos."
     },
     {
-      name: "Bunder",
-      title: "Bunder - MVP Proposal",
+      name: "E-commerce",
+      title: "E-commerce",
       pictures: [
         {
-          img: require("./src/assets/designs/bunder/Moodboard.png"),
-          title: "Moodboard"
+          img: require("./src/assets/personal/e-commerce/print01.png"),
+          title: "E-commerce"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 1.png"),
+          img: require("./src/assets/personal/e-commerce/print02.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/print03.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/print04.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/print05.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/print07.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/print08.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/mobile01.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/mobile02.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/mobile03.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/mobile04.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/mobile05.png"),
+          title: "E-commerce"
+        },
+        {
+          img: require("./src/assets/personal/e-commerce/mobile06.png"),
+          title: "E-commerce"
+        },
+      ],
+      technologies: ["JavaScript", "React", "Styled-Components"],
+      category: "Visual Design",
+      github: "",
+      date: "Fev, 2023 - Abr, 2023",
+      visit: "",
+      description:
+        "O Labecommerce é um e-commerce com recursos avançados que permite aos usuários ordenar, pesquisar e filtrar produtos de forma intuitiva. Ele também oferece um carrinho de compras completo, com resumo da compra, opção de limpar o carrinho e ajustar as quantidades. Além disso, o Labecommerce possui organização em páginas e a capacidade de ocultar o carrinho para visualizar mais produtos."
+    },
+    {
+      name: "Financial-control",
+      title: "Financial-control",
+      pictures: [
+        {
+          img: require("./src/assets/personal/financial-control/financial01.png"),
+          title: "Financial-control"
+        },
+        {
+          img: require("./src/assets/personal/financial-control/financial02.png"),
           title: "Mockup 1"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 2.png"),
+          img: require("./src/assets/personal/financial-control/financial03.png"),
           title: "Mockup 2"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 3.png"),
+          img: require("./src/assets/personal/financial-control/financial04.png"),
           title: "Mockup 3"
         },
         {
-          img: require("./src/assets/designs/bunder/Market Research 1.png"),
+          img: require("./src/assets/personal/financial-control/financial05.png"),
           title: "Market Research 1"
         },
         {
-          img: require("./src/assets/designs/bunder/Market Research 2.png"),
+          img: require("./src/assets/personal/financial-control/financial06.png"),
           title: "Market Research 2"
+        },
+        {
+          img: require("./src/assets/personal/financial-control/financial07.png"),
+          title: "Market Research 1"
+        },
+        {
+          img: require("./src/assets/personal/financial-control/financial08.png"),
+          title: "Market Research 1"
+        },
+        {
+          img: require("./src/assets/personal/financial-control/financial09.png"),
+          title: "Market Research 1"
         }
       ],
-      technologies: ["XD", "Illustrator"],
+      technologies: ["JavaScript", "React", "TypeScript"],
       category: "Visual Design",
       github: "",
       date: "May, 2020 - July, 2020",
       visit: "",
       description:
-        "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
+        "Olá desenvolvedores, este projeto foi desenvolvido com o intuito de ser um aplicativo para controle de gastos financeiros pessoais, com sistema de balanceamento, criação de novas transações, sistema de filtragem, etc."
     }
   ],
   // recommendations: [

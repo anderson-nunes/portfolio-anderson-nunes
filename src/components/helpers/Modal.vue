@@ -64,7 +64,7 @@
             <button class="btn w-25 mr-3" @click="open(portfolio.github)">
               github
             </button>
-            <button class="btn w-25" @click="$emit('close')">close</button>
+            <button class="btn w-25" @click="$emit('close')">fechar</button>
           </div>
         </div>
       </div>
