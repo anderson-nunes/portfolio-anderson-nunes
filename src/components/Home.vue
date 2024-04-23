@@ -106,6 +106,10 @@ export default {
 </script>
 
 <style scoped>
+.picture {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
 .home-title {
   font-size: 28px;
   font-weight: 500;
@@ -158,6 +162,4 @@ p {
   text-align: justify;
   font-weight: 400;
 }
-
-/* LEAVES */
 </style>

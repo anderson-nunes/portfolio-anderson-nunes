@@ -169,178 +169,174 @@ let info = {
     //   icon: "fa fa-pencil-square-o"
     // }
   ],
-  portfolio: [
+  portfolio_design: [
     {
-      name: "Sheet Recognizer",
+      name: "FeedFlex",
       pictures: [
         {
-          img: require("./src/assets/portfolio/msr/one.png")
+          img: require("./src/assets/portfolio/feeedflex/feedflex.jpg")
         },
         {
-          img: require("./src/assets/portfolio/msr/two.png")
+          img: require("./src/assets/portfolio/feeedflex/feedflex01.png")
         },
         {
-          img: require("./src/assets/portfolio/msr/three.png")
+          img: require("./src/assets/portfolio/feeedflex/feedflex02.jpeg")
         },
         {
-          img: require("./src/assets/portfolio/msr/four.png")
+          img: require("./src/assets/portfolio/feeedflex/feedflex03.jpg")
         }
       ],
-      technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
-      category: "Algorithm",
-      date: "Jan, 2020 - Mar, 2020",
-      github:
-        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      description:
-        "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition, this tool is used to detect music notes and rests. It makes use of basic Computer Vision techniques such as Convolution, Edge Detections, Hough Transforms and Template Matching to detect notes and rests on a music sheet. "
-    },
-    {
-      name: "NoQ Job Portal",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/noq/logo.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/four.png")
-        }
-      ],
-      technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
+      technologies: ["React", "TypeScript", "Chakra UI"],
       category: "Website",
-      date: "Sep, 2019 - Dec  , 2019",
-      github: "https://github.com/hrishikeshpaul/noq",
-      visit: "https://noq-client.herokuapp.com/",
+      date: "Nov, 2022 - Abr, 2023",
+      github:
+        "",
+      visit: "https://www.metadados.com.br/feedflex?utm_term=feedflex&utm_campaign=Vibe+1+-+Rede+de+Pesquisa&utm_source=google&utm_medium=cpc&hsa_acc=2202847816&hsa_cam=16906816046&hsa_grp=153206314256&hsa_ad=671301968530&hsa_src=g&hsa_tgt=kwd-1703246678124&hsa_kw=feedflex&hsa_mt=b&hsa_ver=3&hsa_net=adwords&gad_source=1&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVOwlaR7z27PmtdEiL58E4UNmgrrU1hbnaOINyDuf-zKHOUckSY5vgRoCKUoQAvD_BwE",
       description:
-        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
+        "Tive a oportunidade de trabalhar como desenvolvedor front-end na FeedFlex, uma empresa especializada na área de RH que otimiza a gestão de benefícios corporativos com uma plataforma on-line que garante mais praticidade e controle em um único sistema. Lá, fui responsável por implementar novas funcionalidades e melhorias no projeto, o que me permitiu aprimorar minhas habilidades, contribuindo significativamente para o avanço do projeto da empresa. Nessa minha experiência, trabalhei em um monorepo onde tinham 2 projetos mais importantes da empresa, um projeto voltado para o empregado e outro para o empregador"
     },
     {
-      name: "POST",
+      name: "Decola Juninho",
       pictures: [
         {
-          img: require("./src/assets/portfolio/post/one.png")
+          img: require("./src/assets/portfolio/decola/decola.png")
         },
         {
-          img: require("./src/assets/portfolio/post/two.png")
-        }
+          img: require("./src/assets/portfolio/decola/decola01.png")
+        },
+      ],
+      technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
+      category: "Website",
+      date: "Dez, 2023 - Presente",
+      github: "",
+      visit: "",
+      description:
+        "O Decola Juninho, é um Projeto Voluntário de Desenvolvimento de TI Junior! É uma iniciativa dedicada a auxiliar jovens desenvolvedores e áreas que englobam projetos de TI, em busca de sua primeira oportunidade no mercado de trabalho. Nosso objetivo além de propiciar uma experiência real na área escolhida, é disponibilizar através de grupos em plataformas, diversas vagas na área da tecnologia. Acreditamos que todos merecem uma chance de começar e prosperar em suas trajetórias profissionais. Por meio de nossa comunidade engajada e colaborativa, conectamos talentos em ascensão a empresas e projetos relevantes, facilitando o crescimento mútuo."
+    },
+    {
+      name: "ALFA Software AutoPeças",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/alfa/alfa3.png")
+        },
+        {
+          img: require("./src/assets/portfolio/alfa/alfa2.png")
+        },
+        {
+          img: require("./src/assets/portfolio/alfa/alfa1.png")
+        },
+        {
+          img: require("./src/assets/portfolio/alfa/alfa4.png")
+        },
       ],
       technologies: [
-        "Markov Models",
-        "Python",
-        "Artificial Intelligence",
+        "JavaScript",
         "Vue",
-        "Heroku"
+        "TypeScript",
+        "CSS",
       ],
-      category: "Algorithm",
-      github: "https://github.com/hrishikeshpaul/pos-tagger",
-      date: "Oct, 2019 - Nov, 2019",
-      visit: "https://post-client.herokuapp.com/",
-      description:
-        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
-    },
-    {
-      name: "Suicide Analyzer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
-        },
-        {
-          img: require("./src/assets/portfolio/suicide/suicide2-original.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
       category: "Website",
-      date: "Oct, 2018 - Nov, 2018",
-      github: "https://github.com/hrishikeshpaul/whodata",
-      visit: "https://skylarktiral.herokuapp.com/",
+      github: "",
+      date: "Mar, 2024 - Presente",
+      visit: "",
       description:
-        "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO. The application consists of a Leaflet map that colors every nation, based on the number of suicides that have been committed in that country, for that year. It provides us with the capability to select the data as well as the continent."
+        "Autopeças Digital, uma evolução para o seu negócio em autopeças. Uma empresa exclusiva para autopeças. Mobilidade, Evolução e Suporte para o setor de distribuição e varejo de autopeças."
     },
-    {
-      name: "Sentiment Analyzer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/smit/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/four.png")
-        }
-      ],
-      technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
-      category: "Alogrithm",
-      date: "Feb, 2018 - Apr  , 2018",
-      github: "https://github.com/hrishikeshpaul/sih",
-      visit: "https://angel.co/projects/1009777-sentiment-analysis",
-      description:
-        "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
-    },
-    {
-      name: "Clumpr",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/clumpr/logo.png")
-        },
-        {
-          img: require("./src/assets/portfolio/clumpr/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/clumpr/two.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
-      category: "Web App",
-      github: "https://github.com/hrishikeshpaul/clumpr",
-      date: "Sep, 2017 - Nov, 2017",
-      visit: "https://github.com/hrishikeshpaul/clumpr",
-      description:
-        'Clumpr is an online social event planning assistant that - using information about similar events happening in similar locations around the same time, friends who frequently attend the same events, and mutual friends - helps users to collaborate, combine, and attend events together, effectively "clumping" people and activities in a way that makes intuitive sense.'
-    },
-    {
-      name: "Nutricare",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/nc/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/four.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/five.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/six.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "MongDB", "Medical"],
-      category: "Website",
-      github: "https://github.com/hrishikeshpaul/clumpr",
-      date: "May, 2017 - Aug, 2017",
-      visit: "https://angel.co/projects/576300-nutricare",
-      description:
-        "Nutricare is a basic health website for users(patients) to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects (patient) for a particular problem statement. Typically, a researcher will enter food item consumed by subjects over a period of time (Ex - 24hrs, or 1 week, or 1 month etc)."
-    }
+    // {
+    //   name: "Suicide Analyzer",
+    //   pictures: [
+    //     {
+    //       img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/suicide/suicide2-original.png")
+    //     }
+    //   ],
+    //   technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
+    //   category: "Website",
+    //   date: "Oct, 2018 - Nov, 2018",
+    //   github: "https://github.com/hrishikeshpaul/whodata",
+    //   visit: "https://skylarktiral.herokuapp.com/",
+    //   description:
+    //     "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO. The application consists of a Leaflet map that colors every nation, based on the number of suicides that have been committed in that country, for that year. It provides us with the capability to select the data as well as the continent."
+    // },
+    // {
+    //   name: "Sentiment Analyzer",
+    //   pictures: [
+    //     {
+    //       img: require("./src/assets/portfolio/smit/one.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/smit/two.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/smit/three.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/smit/four.png")
+    //     }
+    //   ],
+    //   technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
+    //   category: "Alogrithm",
+    //   date: "Feb, 2018 - Apr  , 2018",
+    //   github: "https://github.com/hrishikeshpaul/sih",
+    //   visit: "https://angel.co/projects/1009777-sentiment-analysis",
+    //   description:
+    //     "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
+    // },
+    // {
+    //   name: "Clumpr",
+    //   pictures: [
+    //     {
+    //       img: require("./src/assets/portfolio/clumpr/logo.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/clumpr/one.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/clumpr/two.png")
+    //     }
+    //   ],
+    //   technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
+    //   category: "Web App",
+    //   github: "https://github.com/hrishikeshpaul/clumpr",
+    //   date: "Sep, 2017 - Nov, 2017",
+    //   visit: "https://github.com/hrishikeshpaul/clumpr",
+    //   description:
+    //     'Clumpr is an online social event planning assistant that - using information about similar events happening in similar locations around the same time, friends who frequently attend the same events, and mutual friends - helps users to collaborate, combine, and attend events together, effectively "clumping" people and activities in a way that makes intuitive sense.'
+    // },
+    // {
+    //   name: "Nutricare",
+    //   pictures: [
+    //     {
+    //       img: require("./src/assets/portfolio/nc/one.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/nc/two.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/nc/three.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/nc/four.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/nc/five.png")
+    //     },
+    //     {
+    //       img: require("./src/assets/portfolio/nc/six.png")
+    //     }
+    //   ],
+    //   technologies: ["Node", "Angular", "Express", "MongDB", "Medical"],
+    //   category: "Website",
+    //   github: "https://github.com/hrishikeshpaul/clumpr",
+    //   date: "May, 2017 - Aug, 2017",
+    //   visit: "https://angel.co/projects/576300-nutricare",
+    //   description:
+    //     "Nutricare is a basic health website for users(patients) to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects (patient) for a particular problem statement. Typically, a researcher will enter food item consumed by subjects over a period of time (Ex - 24hrs, or 1 week, or 1 month etc)."
+    // }
   ],
-  portfolio_design: [
+  portfolio: [
     {
       name: "Labeddit",
       title: "E-Labeddit",
@@ -368,7 +364,7 @@ let info = {
       ],
       technologies: ["React", "TypeScript", "Node.js", "SQLite3"],
       category: "Projeto",
-      github: "",
+      github: "https://github.com/anderson-nunes/labeddit-frontend",
       date: "Out, 2023 - Dez, 2023",
       visit: "",
       description:
@@ -409,7 +405,7 @@ let info = {
       ],
       technologies: ["React", "Api-rest", "Axios", "Chakra UI"],
       category: "Projetos individuais",
-      github: "",
+      github: "https://github.com/anderson-nunes/Pokedex",
       date: "May, 2023 - Jun, 2023",
       visit: "",
       description:
@@ -474,7 +470,7 @@ let info = {
       ],
       technologies: ["JavaScript", "React", "Styled-Components"],
       category: "Visual Design",
-      github: "",
+      github: "https://github.com/anderson-nunes/E-commerce",
       date: "Fev, 2023 - Abr, 2023",
       visit: "",
       description:
@@ -522,12 +518,114 @@ let info = {
         }
       ],
       technologies: ["JavaScript", "React", "TypeScript"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
+      category: "Tecnologia",
+      github: "https://github.com/anderson-nunes/financial-control",
+      date: "Nov, 2023 - Dez, 2024",
       visit: "",
       description:
         "Olá desenvolvedores, este projeto foi desenvolvido com o intuito de ser um aplicativo para controle de gastos financeiros pessoais, com sistema de balanceamento, criação de novas transações, sistema de filtragem, etc."
+    },
+    {
+      name: "Landing-Page",
+      title: "Landing-Page",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/landing/desktop-01.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/desktop-02.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/desktop-04.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/desktop-05.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/desktop-06.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/formulario-01.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/menu-mobile.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/mobile-01.png"),
+          title: "Landing-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/landing/mobile-06.png"),
+          title: "Landing-Page"
+        },
+      ],
+      technologies: ["Javascript", "CSS", "HTML"],
+      category: "Projeto",
+      github: "https://github.com/anderson-nunes/Landing-Page",
+      date: "Fev, 2023 - Mar, 2023",
+      visit: "",
+      description:
+        "Projeto proposto pela Labenu, criando uma Landing Page cujo o objetivo é atrair clientes e despertar curiosidade e interesse nos serviços, durante a construção deste site foi praticado os seguintes conceitos: HTML, CSS, DOM"
+    },
+    {
+      name: "Gym-Page",
+      title: "Gym-Page",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/gym/tela01.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela02.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela03.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela04.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela05.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela06.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela07.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela08.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela09.png"),
+          title: "Gym-Page"
+        },
+        {
+          img: require("./src/assets/portfolio/gym/tela10.png"),
+          title: "Gym-Page"
+        },
+      ],
+      technologies: ["Javascript", "CSS", "HTML"],
+      category: "Projeto",
+      github: "https://github.com/anderson-nunes/projeto-academia",
+      date: "Dez, 2022 - Jan, 2023",
+      visit: "",
+      description:
+        "Projeto simulando uma página de academia, aonde você coloca o seu nome e escolhe o grupo muscular que quer treinar ao longa da sua semana, você pode visualizar o progresso da semana com a barra de progresso, ao fim dessa etapa o aluno recebe em tela os exercícios assim propostos pelo programa."
     }
   ],
   // recommendations: [

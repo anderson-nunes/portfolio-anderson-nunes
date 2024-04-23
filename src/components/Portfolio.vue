@@ -26,7 +26,7 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="proj. corporativos">
+        <v-tab title="proj. individuais">
           <br />
           <div class="row">
             <div
@@ -49,12 +49,12 @@
               />
             </div>
           </div>
-          <div class="text-center py-3" v-if="showBtn !== 'show less'">
+          <!-- <div class="text-center py-3" v-if="showBtn !== 'show less'">
             <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
-          </div>
+          </div> -->
         </v-tab>
 
-        <v-tab title="proj. individuais">
+        <v-tab title="proj. corporativos">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"
@@ -128,6 +128,9 @@
         :nightMode="nightMode"
       />
     </transition>
+    <div class="text-center py-3" v-if="showBtn !== 'show less'">
+      <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
+    </div>
   </div>
 </template>
 

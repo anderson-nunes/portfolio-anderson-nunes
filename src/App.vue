@@ -111,6 +111,10 @@ export default {
   background-color: #262c30 !important;
 }
 
+.bg-dark1 {
+  background-color: #cad5dc !important;
+}
+
 .text-light {
   color: #d3d2d2 !important;
 }

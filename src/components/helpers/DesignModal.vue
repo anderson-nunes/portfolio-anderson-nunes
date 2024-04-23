@@ -51,12 +51,17 @@
             </div>
           </div>
 
-          <div class="text-center pb-3">
+          <div class="text-center pb-3 g-2">
             <hr
               class="mt-1 mb-3"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
-            <button class="btn w-25" @click="$emit('close')">fechar</button>
+            <div class="button">
+              <button class="btn w-25" @click="open(portfolio.github)">
+                github
+              </button>
+              <button class="btn w-25" @click="$emit('close')">fechar</button>
+            </div>
           </div>
         </div>
       </div>
@@ -111,6 +116,12 @@ a {
 a:hover {
   transition: all 0.2s;
   color: gray;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .date {
