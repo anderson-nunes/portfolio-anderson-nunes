@@ -1,7 +1,7 @@
 let info = {
   name: "Anderson Ribeiro",
   logo_name: "anderson",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  flat_picture: require("./src/assets/port.gif"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "Sou um desenvolvedor formado em Web FullStack pela Labenu e concluí o curso Técnico em Informática para Internet pela QI Faculdade & Escola Técnica. Atualmente, curso Análise e Desenvolvimento de Sistemas para aprimorar minhas habilidades técnicas. Tenho experiência em projetos colaborativos, em empresas e em projetos voluntários. Desenvolvi uma sólida base em clean code para criar soluções eficientes e escaláveis. Meu foco está no desenvolvimento front-end, mas tenho interesse em explorar back-end e DevOps para ampliar minha versatilidade profissional. Estou aberto a oportunidades de networking e colaborações. Entre em contato para discutirmos projetos ou oportunidades profissionais.",
+    "Sou um desenvolvedor FullStack Web, atualmente cursando Análise e Desenvolvimento de Sistemas para ampliar minha expertise. Concluí o curso Técnico em Informática para Internet pela QI Faculdade & Escola Técnica e a formação em Web FullStack na Labenu. Com foco em clean code, busco criar soluções eficientes e escaláveis. Embora prefira o desenvolvimento front-end, estou aberto a explorar oportunidades no back-end e DevOps.  Estou sempre em busca de networking e colaborações em projetos interessantes. Vamos conversar sobre oportunidades de trabalho ou projetos?",
   links: {
     linkedin: "https://www.linkedin.com/in/anderson-ribeiro-dev/",
     github: "https://github.com/anderson-nunes",
@@ -366,7 +366,7 @@ let info = {
       category: "Projeto",
       github: "https://github.com/anderson-nunes/labeddit-frontend",
       date: "Out, 2023 - Dez, 2023",
-      visit: "",
+      visit: "https://labeddit-frontend-six.vercel.app/",
       description:
         "LabEddit é um projeto web full stack, desenvolvido com um design de aplicativo mobile first que permite a interação entre usuários por meio de postagens, comentários e votos. Os usuários também podem alterar apelido, senha e imagem de avatar, além de deletar suas próprias postagens e comentários."
     },
@@ -407,7 +407,7 @@ let info = {
       category: "Projetos individuais",
       github: "https://github.com/anderson-nunes/Pokedex",
       date: "May, 2023 - Jun, 2023",
-      visit: "",
+      visit: "https://projeto-pokedex-api-rose.vercel.app/",
       description:
         "O projeto Pokedex oferece uma experiência completa de exploração de Pokémon. Com recursos de captura, os usuários podem adicionar novos Pokémon à sua coleção. Além disso, detalhes abrangentes sobre cada Pokémon, como estatísticas e habilidades, podem ser visualizados. A flexibilidade de excluir Pokémon da coleção também está disponível. Essa aplicação proporciona uma jornada envolvente para os fãs, permitindo que interajam com os Pokémon de maneiras diversas e significativas. O projeto terá como fonte de dados para a sua criação a Poke Api, uma Api pública, muito usada para aplicações focadas em aprendizado de programação e também usada em cases de processos seletivos."
     },
@@ -472,7 +472,7 @@ let info = {
       category: "Visual Design",
       github: "https://github.com/anderson-nunes/E-commerce",
       date: "Fev, 2023 - Abr, 2023",
-      visit: "",
+      visit: "https://anderson-nunes.surge.sh/",
       description:
         "O Labecommerce é um e-commerce com recursos avançados que permite aos usuários ordenar, pesquisar e filtrar produtos de forma intuitiva. Ele também oferece um carrinho de compras completo, com resumo da compra, opção de limpar o carrinho e ajustar as quantidades. Além disso, o Labecommerce possui organização em páginas e a capacidade de ocultar o carrinho para visualizar mais produtos."
     },
@@ -521,7 +521,7 @@ let info = {
       category: "Tecnologia",
       github: "https://github.com/anderson-nunes/financial-control",
       date: "Nov, 2023 - Dez, 2024",
-      visit: "",
+      visit: "https://financial-control-seven-eta.vercel.app/",
       description:
         "Olá desenvolvedores, este projeto foi desenvolvido com o intuito de ser um aplicativo para controle de gastos financeiros pessoais, com sistema de balanceamento, criação de novas transações, sistema de filtragem, etc."
     },
@@ -570,7 +570,7 @@ let info = {
       category: "Projeto",
       github: "https://github.com/anderson-nunes/Landing-Page",
       date: "Fev, 2023 - Mar, 2023",
-      visit: "",
+      visit: "https://anderson-ribeiro-nunes.surge.sh/",
       description:
         "Projeto proposto pela Labenu, criando uma Landing Page cujo o objetivo é atrair clientes e despertar curiosidade e interesse nos serviços, durante a construção deste site foi praticado os seguintes conceitos: HTML, CSS, DOM"
     },
@@ -623,7 +623,7 @@ let info = {
       category: "Projeto",
       github: "https://github.com/anderson-nunes/projeto-academia",
       date: "Dez, 2022 - Jan, 2023",
-      visit: "",
+      visit: "https://anderson-projeto-academia.surge.sh/",
       description:
         "Projeto simulando uma página de academia, aonde você coloca o seu nome e escolhe o grupo muscular que quer treinar ao longa da sua semana, você pode visualizar o progresso da semana com a barra de progresso, ao fim dessa etapa o aluno recebe em tela os exercícios assim propostos pelo programa."
     }
