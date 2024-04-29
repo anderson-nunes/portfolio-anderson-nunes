@@ -31,14 +31,6 @@ These are the local dependencies that are needed for development,
 - npm
 - git
 
-### Clone
-
-Get this repo to your local machine using,
-
-```shell
-$ git clone https://github.com/hrishikeshpaul/portfolio-template.git
-```
-
 ### Setup
 
 To install the node packages used in the project:
