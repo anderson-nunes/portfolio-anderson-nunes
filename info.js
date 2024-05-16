@@ -1,7 +1,7 @@
 let info = {
   name: "Anderson Ribeiro",
   logo_name: "anderson",
-  flat_picture: require("./src/assets/port.gif"),
+  flat_picture: require("./src/assets/avatar3.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "Sou um desenvolvedor FullStack Web, atualmente cursando Análise e Desenvolvimento de Sistemas para ampliar minha expertise. Concluí o curso Técnico em Informática para Internet pela QI Faculdade & Escola Técnica e a formação em Web FullStack na Labenu. Com foco em clean code, busco criar soluções eficientes e escaláveis. Embora prefira o desenvolvimento front-end, estou aberto a explorar oportunidades no back-end e DevOps.  Estou sempre em busca de networking e colaborações em projetos interessantes. Vamos conversar sobre oportunidades de trabalho ou projetos?",
+    "Sou um entusiasta desenvolvedor FullStack Web, atualmente aprimorando minhas habilidades através do curso de Análise e Desenvolvimento de Sistemas. Com uma base sólida adquirida no curso Técnico em Informática para Internet pela QI Faculdade & Escola Técnica e a formação em Web FullStack no Bottcamp da Labenu, busco constantemente a excelência em clean code para criar soluções eficientes e escaláveis. Apaixonado pelo desenvolvimento front-end, estou aberto a explorar novas oportunidades no back-end e DevOps. Estou sempre em busca de conexões e colaborações em projetos inovadores. Vamos juntos explorar novas oportunidades de trabalho ou projetos desafiadores!",
   links: {
     linkedin: "https://www.linkedin.com/in/anderson-ribeiro-dev/",
     github: "https://github.com/anderson-nunes",
@@ -24,7 +24,7 @@ let info = {
       degree: "Analise e Desenvolvimento de Sistemas",
       gpa: "3.7/4.0",
       description:
-        "Atualmente estou cursando análise e desenvolvimento de sistemas, ao mesmo tempo em que me especializo em tecnologias modernas e práticas de programação avançada",
+        "Atualmente estou cursando análise e desenvolvimento de sistemas, ao mesmo tempo em que me especializo em tecnologias modernas e práticas de programação avançada.",
       skills: [
         "Programação orientada a objetos (POO)",
         "Tecnologias de redes de computadores",
@@ -93,7 +93,7 @@ let info = {
       date: "Mar, 2024 - Presente",
       position: "Desenvolvedor Front End",
       description:
-        "Atuo no desenvolvimento de interfaces de usuário (UI), projetando e implementando interfaces intuitivas e atraentes. Utilizo Vue.js para criar aplicativos web escaláveis e responsivos, maximizando a experiência do usuário. Além disso, aplico TypeScript para codificar soluções robustas e seguras, garantindo uma base sólida e escalável para todos os projetos em que estou envolvido.",
+        "Desenvolvedor front-end com expertise em Vue.js e TypeScript. Crio aplicações web escaláveis e responsivas, com foco em experiência do usuário. Utilizo metodologias ágeis e tecnologias como HTML, CSS e JavaScript para entregar soluções robustas e seguras.",
       skills: ["HTML", "CSS", "Javascript", "Vue.js", "Typescript"]
     },
     {
@@ -102,7 +102,7 @@ let info = {
       date: "Dez, 2023 - Presente",
       position: "Desenvolvedor Front End",
       description:
-        "Atuo no desenvolvimento de interfaces de usuário (UI), projetando e implementando interfaces intuitivas e visualmente atraentes. Utilizo React com Material-UI para criar aplicativos web escaláveis e responsivos, maximizando a experiência do usuário. Além disso, aplico TypeScript para codificar soluções robustas e seguras, garantindo uma base sólida e escalável para todos os projetos em que estou envolvido.",
+        "Desenvolvedor front-end voluntário com habilidades em React e Material-UI. Crio aplicações web escaláveis e responsivas, com foco em experiência do usuário. Utilizo TypeScript para garantir soluções robustas e seguras.",
       skills: ["HTML", "CSS", "Material UI", "Javascript", "React", "Typescript"]
     },
     {
@@ -111,7 +111,7 @@ let info = {
       date: "Out, 2022 - Abr, 2023",
       position: "Desenvolvedor Front End",
       description:
-        "Atuo no desenvolvimento de interfaces de usuário (UI), projetando e implementando interfaces intuitivas e visualmente atraentes. Utilizo React para criar aplicativos web escaláveis e responsivos, maximizando a experiência do usuário. Além disso, aplico TypeScript para codificar soluções robustas e seguras, garantindo uma base sólida e escalável para todos os projetos em que estou envolvido.",
+        "Como desenvolvedor front-end na FeedFlex, empresa líder em otimização de benefícios corporativos, fui encarregado de impulsionar a inovação e aprimorar a experiência do usuário em sua plataforma online. Trabalhando em um ambiente de monorepo com projetos distintos para empregados e empregadores, utilizei tecnologias avançadas como React, TypeScript, Redux e Styled-components para implementar novas funcionalidades e aprimoramentos significativos. ",
       skills: ["HTML", "CSS", "Javascript", "React", "Typescript"]
     },
   ],
@@ -141,7 +141,7 @@ let info = {
     // },
     {
       title: "tecnologias web",
-      info: ["Vue", "React", "Node", "HTML", "CSS"],
+      info: ["Vue", "React", "Next", "Node", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
